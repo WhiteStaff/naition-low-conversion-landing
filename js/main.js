@@ -3,9 +3,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('registration-form');
     const message = document.getElementById('form-message');
     const registerButtons = document.querySelectorAll('.btn-register');
+    const tariffSelect = document.getElementById('tariff-select');
 
     registerButtons.forEach((button) => {
         button.addEventListener('click', () => {
+            if (tariffSelect instanceof HTMLSelectElement && button.dataset.tariff) {
+                tariffSelect.value = button.dataset.tariff;
+            }
+
             if (!registrationSection) {
                 return;
             }
@@ -23,6 +28,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const submitButton = form.querySelector('button[type="submit"]');
         const formData = new FormData(form);
+
+        // API сохраняет только purpose, поэтому тариф дописываем в него
+        const tariff = formData.get('tariff');
+        if (tariff) {
+            formData.set('purpose', `${formData.get('purpose')} · Тариф: ${tariff}`);
+            formData.delete('tariff');
+        }
 
         if (submitButton instanceof HTMLButtonElement) {
             submitButton.disabled = true;

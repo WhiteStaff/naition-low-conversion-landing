@@ -373,19 +373,21 @@
         </div>
     </footer>
 
-    <!-- Вставьте свой счётчик Яндекс.Метрики здесь -->
-     <!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-    (function(m,e,t,r,i,k,a){
-        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-        m[i].l=1*new Date();
-        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
-    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=113670476', 'ym');
-
-    ym(113670476, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+ <!-- BEGIN PLERDY CODE -->
+<script data-plerdy_code='1'>
+(function(w,d){
+  if(w.__plerdyCode)return;
+  w.__plerdyCode=1;
+  w._protocol=w.location.protocol=="https:"?"https://":"http://";
+  w._site_hash_code="72745fa651f8ce33e05b5e166c84f927";
+  w._suid=82236;
+  var s=d.createElement("script");
+  s.async=true;
+  s.referrerPolicy="strict-origin-when-cross-origin";
+  s.src="https://a.plerdy.com/public/js/click/main.js?v="+Math.random();
+  d.head.appendChild(s);
+})(window,document);
 </script>
-<noscript><div><img src="https://mc.yandex.ru/watch/113670476" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
+<!-- END PLERDY CODE -->
 </body>
 </html>

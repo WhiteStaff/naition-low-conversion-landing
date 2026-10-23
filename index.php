@@ -18,18 +18,18 @@
 <body>
     <header class="hero">
         <div class="container hero-content">
-            <span class="hero-badge">Офлайн-курс · 14 ноября 2026 · до 14 человек в группе</span>
-            <h1>Первая помощь: практический курс для каждого</h1>
+            <span class="hero-badge">Курс первой помощи · 14 ноября · Москва</span>
+            <h1>Если рядом кому-то станет плохо — вы будете знать, что делать</h1>
             <p class="hero-text">
-                Научитесь действовать уверенно в экстренной ситуации: остановить кровотечение,
-                провести сердечно-легочную реанимацию, помочь при травмах и ожогах до приезда
-                медиков. Курс построен на практике с инструкторами, которые каждый день работают
-                с реальными вызовами.
+                Один день практики на манекенах с инструкторами: сердечно-лёгочная реанимация,
+                остановка кровотечения, помощь при травмах и ожогах до приезда скорой.
+                Уйдёте с навыком в руках, а не с конспектом.
             </p>
             <div class="hero-actions">
                 <a href="#registration" class="btn btn-large">Записаться на курс</a>
                 <span class="hero-price">от 4 900 ₽ · сертификат по итогам</span>
             </div>
+            <p class="hero-trust">Ведут врач скорой помощи и инструктор Российского Красного Креста · опыт не нужен: всё отрабатываем на манекенах и имитаторах · до 14 человек в группе</p>
             <div class="meta-grid">
                 <div class="meta-card">
                     <strong>Дата</strong>
@@ -62,8 +62,8 @@
                 </p>
                 <div class="features-grid">
                     <article class="feature-card">
-                        <h3>8 часов практики</h3>
-                        <p>Больше половины времени посвящено тренировкам на манекенах, имитации травм и работе в парах.</p>
+                        <h3>Целый день практики</h3>
+                        <p>8 часов занятий, больше половины времени посвящено тренировкам на манекенах, имитации травм и работе в парах.</p>
                     </article>
                     <article class="feature-card">
                         <h3>Формат offline</h3>
@@ -206,6 +206,10 @@
                         </details>
                     </article>
                 </div>
+                <div class="section-cta">
+                    <a href="#registration" class="btn">Записаться на 14 ноября</a>
+                    <span>от 4 900 ₽ · до 14 человек в группе</span>
+                </div>
             </div>
         </section>
 
@@ -326,7 +330,7 @@
             <div class="container">
                 <h2 class="section-title">Отзывы участников</h2>
                 <p class="section-lead">
-                    Инструкторы курса уже обучили более 1 200 слушателей. Вот что говорят те, кто прошёл практический день.
+                    Инструктор курса Марина Соколова уже обучила более 1 200 слушателей. Вот что говорят те, кто прошёл практический день.
                 </p>
                 <div class="reviews-grid">
                     <article class="review-card">
@@ -341,6 +345,10 @@
                         <p>«Наконец разобралась, что мне ничего не грозит, если я помогаю. Теперь знаю, что делать, а не просто стою рядом».</p>
                         <span class="review-author">Анна, менеджер проектов</span>
                     </article>
+                </div>
+                <div class="section-cta">
+                    <a href="#registration" class="btn">Записаться на 14 ноября</a>
+                    <span>от 4 900 ₽ · до 14 человек в группе</span>
                 </div>
             </div>
         </section>
@@ -361,9 +369,10 @@
                             <li>Сертификат и памятка</li>
                             <li>Кофе-брейки</li>
                         </ul>
-                        <button type="button" class="btn btn-register" data-tariff="Базовый — 4 900 ₽">Записаться</button>
+                        <button type="button" class="btn btn-register" data-tariff="Базовый — 4 900 ₽">Записаться за 4 900 ₽</button>
                     </article>
                     <article class="pricing-card featured">
+                        <span class="pricing-badge">Рекомендуем</span>
                         <h3>Расширенный</h3>
                         <div class="price">7 900 ₽</div>
                         <ul class="pricing-list">
@@ -371,7 +380,7 @@
                             <li>Набор перевязочных материалов</li>
                             <li>Дополнительный практический блок</li>
                         </ul>
-                        <button type="button" class="btn btn-register" data-tariff="Расширенный — 7 900 ₽">Записаться</button>
+                        <button type="button" class="btn btn-register" data-tariff="Расширенный — 7 900 ₽">Записаться за 7 900 ₽</button>
                     </article>
                     <article class="pricing-card">
                         <h3>Корпоративный</h3>
@@ -381,7 +390,7 @@
                             <li>Консультация для HR или руководителя</li>
                             <li>Отчёт о прохождении для работодателя</li>
                         </ul>
-                        <button type="button" class="btn btn-register" data-tariff="Корпоративный — 12 900 ₽">Записаться</button>
+                        <button type="button" class="btn btn-register" data-tariff="Корпоративный — 12 900 ₽">Записаться за 12 900 ₽</button>
                     </article>
                 </div>
             </div>
@@ -392,7 +401,7 @@
                 <div class="registration-panel">
                     <h2 class="section-title">Записаться на курс</h2>
                     <p class="section-lead">
-                        Займёт меньше минуты. Мы перезвоним, подтвердим место на 14 ноября и ответим на вопросы.
+                        Займёт меньше минуты и ни к чему не обязывает: мы перезвоним, подтвердим место на 14 ноября и ответим на вопросы.
                     </p>
                     <form class="form-grid" id="registration-form" action="api/submit.php" method="post">
                         <label>
@@ -402,22 +411,25 @@
                         <label>
                             Телефон
                             <input type="tel" name="phone" required autocomplete="tel">
+                            <span class="field-hint">Нужен, чтобы подтвердить ваше место в группе</span>
                         </label>
                         <label>
                             E-mail
                             <input type="email" name="email" required autocomplete="email">
+                            <span class="field-hint">Пришлём детали записи и памятку после курса</span>
                         </label>
                         <label>
                             Тариф
                             <select name="tariff" id="tariff-select">
-                                <option value="Базовый — 4 900 ₽">Базовый — 4 900 ₽</option>
-                                <option value="Расширенный — 7 900 ₽" selected>Расширенный — 7 900 ₽</option>
+                                <option value="Базовый — 4 900 ₽" selected>Базовый — 4 900 ₽</option>
+                                <option value="Расширенный — 7 900 ₽">Расширенный — 7 900 ₽</option>
                                 <option value="Корпоративный — 12 900 ₽">Корпоративный — 12 900 ₽</option>
                             </select>
+                            <span class="tariff-hint" id="tariff-hint">Полный однодневный курс, сертификат, памятка и кофе-брейки.</span>
                         </label>
                         <label>
                             Для чего вам курс
-                            <select name="purpose" required>
+                            <select name="purpose" id="purpose-select" required>
                                 <option value="Для себя и близких" selected>Для себя и близких</option>
                                 <option value="Для работы">Для работы</option>
                                 <option value="Для детей и семьи">Для детей и семьи</option>
@@ -425,7 +437,7 @@
                                 <option value="Другое">Другое</option>
                             </select>
                         </label>
-                        <button type="submit" class="btn">Отправить заявку</button>
+                        <button type="submit" class="btn">Забронировать место</button>
                     </form>
                     <p class="form-message" id="form-message" aria-live="polite"></p>
                 </div>

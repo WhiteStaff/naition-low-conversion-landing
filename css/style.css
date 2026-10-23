@@ -104,6 +104,12 @@ img {
     font-weight: 600;
 }
 
+.hero-trust {
+    margin: 16px 0 0;
+    color: #6c757d;
+    font-size: 0.95rem;
+}
+
 .meta-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -315,6 +321,32 @@ img {
 .pricing-card.featured {
     border: 2px solid var(--blue);
     transform: scale(1.02);
+    position: relative;
+}
+
+.pricing-badge {
+    position: absolute;
+    top: -14px;
+    left: 28px;
+    padding: 4px 14px;
+    border-radius: 999px;
+    background: var(--accent);
+    color: var(--white);
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.section-cta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px 20px;
+    margin-top: 32px;
+}
+
+.section-cta span {
+    color: var(--heading);
+    font-weight: 600;
 }
 
 .price {
@@ -450,6 +482,13 @@ img {
     box-shadow: 0 0 0 3px rgba(214, 60, 79, 0.15);
 }
 
+.tariff-hint,
+.field-hint {
+    font-weight: 400;
+    font-size: 0.92rem;
+    color: #6c757d;
+}
+
 .form-grid textarea {
     min-height: 140px;
     resize: vertical;
@@ -499,6 +538,13 @@ img {
         bottom: 16px;
         z-index: 10;
         box-shadow: 0 10px 24px rgba(45, 52, 54, 0.25);
+        transition: opacity 0.2s ease, transform 0.2s ease;
+    }
+
+    .sticky-cta.is-hidden {
+        opacity: 0;
+        transform: translateY(120%);
+        pointer-events: none;
     }
 
     .site-footer {

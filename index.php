@@ -414,9 +414,9 @@
                             <span class="field-hint">Нужен, чтобы подтвердить ваше место в группе</span>
                         </label>
                         <label>
-                            E-mail
-                            <input type="email" name="email" required autocomplete="email">
-                            <span class="field-hint">Пришлём детали записи и памятку после курса</span>
+                            <span>E-mail <span class="field-optional">(необязательно)</span></span>
+                            <input type="email" name="email" autocomplete="email">
+                            <span class="field-hint">Если укажете, пришлём детали записи и памятку после курса</span>
                         </label>
                         <label>
                             Тариф

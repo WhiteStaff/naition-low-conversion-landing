@@ -483,7 +483,8 @@ img {
 }
 
 .tariff-hint,
-.field-hint {
+.field-hint,
+.field-optional {
     font-weight: 400;
     font-size: 0.92rem;
     color: #6c757d;
